@@ -91,7 +91,7 @@ btnAgregar.addEventListener("click", function(event) {
         totalEnProductos += Number(txtNumber.value);
         costoTotal += precio* Number(txtNumber.value);
         productosTotal.innerText=totalEnProductos;
-        precioTotal.innerText=`${costoTotal.toFixed(2)};`
+        precioTotal.innerText=`${costoTotal.toFixed(2)}`;
         localStorage.setItem("contador", contador);
         localStorage.setItem("totalEnProductos",totalEnProductos);
         localStorage.setItem("costoTotal",costoTotal);  
